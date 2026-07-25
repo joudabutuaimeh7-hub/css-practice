@@ -1,0 +1,14 @@
+.container{
+display:flex;
+gap:50px;
+}
+.group{
+display:grid;
+grid-template-columns:repeat(2,70px);
+gap:10px;
+}
+.group div{
+border:1px solid lightgray;
+padding:20px;
+text-align:center;
+}
